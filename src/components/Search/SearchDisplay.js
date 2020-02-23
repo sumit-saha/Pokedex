@@ -149,7 +149,6 @@ export default class SearchDisplay extends React.Component {
                             role="progressbar"
                             style={{
                               width: `${this.state.stats.hp}%`
-                              //backgroundColor: `#${this.state.themeColor}`
                             }}
                             aria-valuenow="25"
                             aria-valuemin="0"
@@ -175,7 +174,6 @@ export default class SearchDisplay extends React.Component {
                             role="progressbar"
                             style={{
                               width: `${this.state.stats.attack}%`
-                              //backgroundColor: `#${this.state.themeColor}`
                             }}
                             aria-valuenow="25"
                             aria-valuemin="0"
@@ -201,7 +199,6 @@ export default class SearchDisplay extends React.Component {
                             role="progressbar"
                             style={{
                               width: `${this.state.stats.defense}%`
-                              //backgroundColor: `#${this.state.themeColor}`
                             }}
                             aria-valuenow="25"
                             aria-valuemin="0"
@@ -227,7 +224,6 @@ export default class SearchDisplay extends React.Component {
                             role="progressbar"
                             style={{
                               width: `${this.state.stats.speed}%`
-                              //backgroundColor: `#${this.state.themeColor}`
                             }}
                             aria-valuenow="25"
                             aria-valuemin="0"
@@ -242,7 +238,7 @@ export default class SearchDisplay extends React.Component {
                       <div
                         className={`col-12 col-md-${this.state.statTitleWidth}`}
                       >
-                        Sp Atk
+                        specialAttack
                       </div>
                       <div
                         className={`col-12 col-md-${this.state.statBarWidth}`}
@@ -253,7 +249,6 @@ export default class SearchDisplay extends React.Component {
                             role="progressbar"
                             style={{
                               width: `${this.state.stats.specialAttack}%`
-                              // backgroundColor: `#${this.state.themeColor}`
                             }}
                             aria-valuenow={this.state.stats.specialAttack}
                             aria-valuemin="0"
@@ -268,7 +263,7 @@ export default class SearchDisplay extends React.Component {
                       <div
                         className={`col-12 col-md-${this.state.statTitleWidth}`}
                       >
-                        Sp Def
+                        specialDefense
                       </div>
                       <div
                         className={`col-12 col-md-${this.state.statBarWidth}`}
@@ -279,7 +274,6 @@ export default class SearchDisplay extends React.Component {
                             role="progressbar"
                             style={{
                               width: `${this.state.stats.specialDefense}%`
-                              //   backgroundColor: `#${this.state.themeColor}`
                             }}
                             aria-valuenow={this.state.stats.specialDefense}
                             aria-valuemin="0"
